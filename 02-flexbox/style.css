@@ -23,33 +23,34 @@ body {
 
 .container {
 	background-color: var(--color-accent);
-	width: 100%;
+	width: 100%; 
 	min-height: 100dvh;
 
 	display: flex;
-	/* gap: 1rem; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* align-content: center; */
-	/* flex-wrap: wrap; */
+	gap: 1rem;
+	justify-content: start;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
 
 	/* flex-direction: column; */
 	/* height: 90vh; */
 }
 
 .box {
-	width: 200px;
+	width: 100px;
 	aspect-ratio: 1;
 	font-size: 2rem;
 	background-color: var(--color-primary);
 	color: var(--color-white);
 	border: solid var(--color-white) 5px;
-
-	/* flex-shrink: 1;
-	flex-grow: 0;
-	flex-basis: 300px; */
-
-	/* flex:1; */
+	flex-shrink: 1;
+	flex-grow: 1;
+	flex-basis: 300px;
+	flex:1;
+	display : flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* .box3 {

@@ -67,6 +67,7 @@ header {
 		}
 	}
 
+/* จัด navไปทางขวา */
 	.nav-item:first-of-type {
 		margin-right: auto;
 	}
